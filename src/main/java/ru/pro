@@ -1,9 +1,0 @@
-byte age = 18;
-char sex = 'ж';
-float height = 1.6;
-short number_of_bricks = 22000;
-long number_of_bacteria = 10000000L;
-double distance_to_space_obj = 1.0e+12;
-boolean work_permit = true;
-long file_size = 3000000000L;
-
