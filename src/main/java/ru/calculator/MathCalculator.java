@@ -8,7 +8,7 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second);
     }
 
-    public static double subAndDivide(double first, double second) {
+    public static double subtractAndDivide(double first, double second) {
         return subtract(first, second) + divide(first, second);
     }
 
@@ -19,7 +19,7 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета равен: " + subAndDivide(10, 20));
+        System.out.println("Результат расчета равен: " + subtractAndDivide(10, 20));
         System.out.println("Результат расчета равен: " + allInOne(10, 20));
     }
 }
