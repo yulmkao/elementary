@@ -2,11 +2,11 @@ package ru.loop;
 
 public class Counter {
     public static int sum(int start, int finish) {
-        int summa = 0;
+        int result = 0;
         for (int i = start; i <= finish; i++) {
-            summa += i;
+            result += i;
         }
-            return summa;
+            return result;
     }
 
     public static void main(String[] args) {
