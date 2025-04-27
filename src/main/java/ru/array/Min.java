@@ -2,10 +2,10 @@ package ru.array;
 
 public class Min {
     public static int findMin(int[] array) {
-        int min = 0;
-        for (int index = 0; index < array.length - 1; index++) {
-            if (array[index] > array[index + 1]) {
-                min = array[index + 1];
+        int min = array[0];
+        for (int index = 0; index < array.length; index++) {
+            if (min > array[index]) {
+                min = array[index];
             }
         }
         return min;
