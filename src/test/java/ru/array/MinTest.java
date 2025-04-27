@@ -31,7 +31,7 @@ class MinTest {
     }
 
     @Test
-    public void when1Min() {
+    public void whenFirstNumberMin() {
         int[] array = new int[] {1, 2, 3, 4, 5, 6, 7, 10, 8, 9};
         int result = Min.findMin(array);
         int expected = 1;
